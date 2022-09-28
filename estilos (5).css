@@ -1,0 +1,53 @@
+*{                                           
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}   
+
+header{
+    border: solid 1px brown;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+
+    background: yellowgreen;
+    padding: 10px;
+}                                                                                                           
+
+#logo-empresa{
+border: solid 1px yellow;
+
+height: 120px;
+
+display: flex;
+
+text-decoration: none;
+color: aliceblue;
+
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+
+    margin-right: 20px;
+}
+
+#empresa{
+    font-size: 40px;
+}
+
+nav .link-nav{
+    margin: 0.10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 20px;
+}
+
+nav .link-nav:hover{
+    color: green;
+    background: #ffe5f0;
+
+}
